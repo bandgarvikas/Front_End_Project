@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>tranform</title>
+	<style type="text/css">
+		body{
+			background: black;
+		}
+		.box{
+			height: 200px;
+			width: 200px;
+			background: red;
+			transform: rotate(20deg);
+			transform: translate(500px, 150px);
+
+		}
+		.box1{
+			height: 200px;
+			width: 200px;
+			background: pink;
+			transition-duration: 3s;
+			transform: rotate(50deg);
+		}
+		
+		.box2{
+			height: 200px;
+			width: 200px;
+			background: yellow;
+			transition-duration: 3s;
+			transform: rotate(60deg);
+		}
+		
+		.box3{
+			height: 200px;
+			width: 200px;
+			background: blue;
+			transition-duration: 3s;
+			transform: rotate(-160deg);
+		}
+		.box4{
+			height: 200px;
+			width: 200px;
+			background: white;
+			transition-duration: 3s;
+			transform: rotate(60deg);
+		}
+		.box1:hover{
+			transform: rotatey(40deg);
+		}
+		.box2:hover{
+			transform: rotatey(40deg);
+		}
+		.box3:hover{
+			transform: rotatey(40deg);
+		}
+		.box4:hover{
+			transform: rotatey(4deg);
+		}
+
+		
+	</style>
+</head>
+<body>
+		<div class="box">
+			<div class="box1">
+				<div class="box2">
+					<div class="box3">
+						<div class="box4"></div>
+					</div>
+				</div>	
+			</div>
+		</div>
+</body>
+</html>
